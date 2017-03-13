@@ -39,4 +39,3 @@ if __name__=='__main__':
      dates = dateRange("120418","170227")
      for ii in dates:
           weburl(ii)
-a
