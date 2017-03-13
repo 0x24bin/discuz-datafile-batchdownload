@@ -11,7 +11,7 @@ webdir="/backup_eec73d/"                           #备份文件夹
 fileqz="120418"                                    #备份日期（前缀）
 filename="fz74JJpP"                                #8位 or 6位随机字符
 filehz=".sql"
-# 获取文件
+# 下载文件
 def getFile(url):
     file_name = url.split('/')[-1]
     u = urllib2.urlopen(url)
